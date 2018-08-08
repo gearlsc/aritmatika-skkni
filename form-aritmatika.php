@@ -15,7 +15,7 @@
 		<?php 
 	if(isset($_POST['submit'])){
 		include"function/aritmatika.php";
-		include"function/terbilang.php";
+		include"function/terbilang_ku.php";
 
 		$angka1 = 0;
 		$angka2 = 0;
@@ -37,7 +37,9 @@
 				$hasil = perkalian($angka1, $angka2);
 				
 			} elseif ($aritmatika == 4) {
-				$hasil = pembagian($angka1, $angka2);
+				$hasilx= pembagian($angka1, $angka2);
+				$hasil=round($hasilx,2);
+				
 				
 			} else {
 				$hasil = 0;
