@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <track>
+    <path>audio/seratus.mp3</path>
+    <title>seratus</title>
+  </track>
+  <track>
+    <path>audio/dua.mp3</path>
+    <title>dua</title>
+  </track>
+  <track>
+    <path>audio/puluh.mp3</path>
+    <title>puluh</title>
+  </track>
+  <track>
+    <path>audio/tiga.mp3</path>
+    <title>tiga</title>
+  </track>
+  <track>
+    <path>audio/rupiah.mp3</path>
+    <title>rupiah</title>
+  </track>
+  <track>
+    <path>audio/stop.mp3</path>
+    <title>stop</title>
+  </track>
+</xml>
